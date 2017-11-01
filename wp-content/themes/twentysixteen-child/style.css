@@ -7,3 +7,45 @@ Author URI:
 Template: twentysixteen
 Version: 0.1.0
 */
+
+/*removes Proudly powered by Wordpress line*/
+.site-info {
+	display:none;
+}
+
+/*reduced blog post titles to 1.5rem*/
+.entry-title, .entry-title a {
+	font-size: 1.5rem !important;
+}
+
+/* Reduces previous and next titles to 1 rem */
+@media screen and (min-width: 44.375em){
+.post-navigation .post-title {
+    font-size: 28px;
+    font-size: 1rem;
+
+	}}
+
+/* changes color of all horizontal lines to #D0D0D0*/
+.widget {
+    border-top: 2px solid #D0D0D0;
+}
+
+.post-navigation {
+    border-top: 2px solid #D0D0D0;
+    border-bottom: 2px solid #D0D0D0;
+}
+
+.post-navigation div + div {
+    border-top: 2px solid #D0D0D0;
+}
+
+/* removes metadata from blog post*/
+.entry-footer span, .entry-footer a{
+	display: none;
+}
+
+
+
+
+
